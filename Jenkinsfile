@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-                sh 'What can i say?'
+                sh 'echo "What can i say?"'
             }
         }
     }
